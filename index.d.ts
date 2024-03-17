@@ -1299,6 +1299,16 @@ export interface Worksheet {
 	mergeCells(v: [string, string, string]): void;
 	mergeCells(v: [number, number, number, number]): void;
 	mergeCells(v: [number, number, number, number, string]): void;
+	mergeCellsFast(): void;
+	mergeCellsFast(v: Range): void;
+	mergeCellsFast(v: string): void;
+	mergeCellsFast(v: Location): void;
+	mergeCellsFast(top: number, left: number, bottom: number, right: number, sheetName?: string): void;
+	mergeCellsFast(tl: string, br: string, sheetName?: string): void;
+	mergeCellsFast(v: [string, string]): void;
+	mergeCellsFast(v: [string, string, string]): void;
+	mergeCellsFast(v: [number, number, number, number]): void;
+	mergeCellsFast(v: [number, number, number, number, string]): void;
 	mergeCellsWithoutStyle(): void;
 	mergeCellsWithoutStyle(v: Range): void;
 	mergeCellsWithoutStyle(v: string): void;
