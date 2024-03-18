@@ -1,3 +1,13 @@
+# Fork版本
+
+## 安装
+```shell
+npm install https://github.com/cbingb666/exceljs.git
+```
+
+## 版本变更
+- 新增 worksheet.mergeCellsFast() 优化合并性能 （仅适用于 stream 时）
+
 # ExcelJS
 
 [![Build Status](https://github.com/exceljs/exceljs/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/exceljs/exceljs/actions/workflows/tests.yml)
